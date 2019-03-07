@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5228" started-at="2019-03-01T10:06:33Z" finished-at="2019-03-01T10:06:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5228" started-at="2019-03-01T10:06:33Z" finished-at="2019-03-01T10:06:39Z">
+      <class name="com.testAutomation.TestAutomation.Homepage">
+        <test-method status="PASS" signature="homePageNavigation()[pri:0, instance:com.testAutomation.TestAutomation.Homepage@26be92ad]" name="homePageNavigation" duration-ms="5196" started-at="2019-03-01T10:06:33Z" finished-at="2019-03-01T10:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+      </class> <!-- com.testAutomation.TestAutomation.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
