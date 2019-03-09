@@ -14,12 +14,11 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 public class base
 {
 	public WebDriver driver;
+	public Properties prop;
 	
 	public WebDriver initializeDriver() throws IOException
 	{
-		Properties prop = new Properties();
-		FileInputStream fis = new FileInputStream(".\\src\\main\\java\\properties\\data.properties");
-		prop.load(fis);
+		prop = getProperties();
 		String browserName = prop.getProperty("browser");
 		System.out.println("browser Name is: " +browserName);
 		
@@ -46,6 +45,14 @@ public class base
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		return driver;
+	}
+
+	public Properties getProperties() throws FileNotFoundException, IOException
+	{
+		prop = new Properties();
+		FileInputStream fis = new FileInputStream(".\\src\\main\\java\\properties\\data.properties");
+		prop.load(fis);
+		return prop;
 	}
 	
 
