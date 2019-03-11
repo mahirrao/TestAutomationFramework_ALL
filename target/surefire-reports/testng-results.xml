@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="50050" started-at="2019-03-11T10:45:43Z" finished-at="2019-03-11T10:46:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="50050" started-at="2019-03-11T10:45:43Z" finished-at="2019-03-11T10:46:33Z">
+      <class name="com.testAutomation.TestAutomation.Homepage">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="initializeTest" is-config="true" duration-ms="6342" started-at="2019-03-11T10:45:51Z" finished-at="2019-03-11T10:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="homePageNavigation" duration-ms="14833" started-at="2019-03-11T10:45:57Z" data-provider="getData" finished-at="2019-03-11T10:46:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[md.ahirrao@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mayur3108]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="terminateDriver()[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="terminateDriver" is-config="true" duration-ms="122" started-at="2019-03-11T10:46:12Z" finished-at="2019-03-11T10:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="initializeTest" is-config="true" duration-ms="9567" started-at="2019-03-11T10:46:12Z" finished-at="2019-03-11T10:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="homePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="homePageNavigation" duration-ms="9049" started-at="2019-03-11T10:46:22Z" data-provider="getData" finished-at="2019-03-11T10:46:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageNavigation -->
+        <test-method status="PASS" signature="terminateDriver()[pri:0, instance:com.testAutomation.TestAutomation.Homepage@2d3fcdbd]" name="terminateDriver" is-config="true" duration-ms="235" started-at="2019-03-11T10:46:31Z" finished-at="2019-03-11T10:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- com.testAutomation.TestAutomation.Homepage -->
+      <class name="com.testAutomation.TestAutomation.ValidateHomepage">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:com.testAutomation.TestAutomation.ValidateHomepage@3a03464]" name="initializeTest" is-config="true" duration-ms="7678" started-at="2019-03-11T10:45:43Z" finished-at="2019-03-11T10:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="validateHomePage()[pri:0, instance:com.testAutomation.TestAutomation.ValidateHomepage@3a03464]" name="validateHomePage" duration-ms="87" started-at="2019-03-11T10:45:51Z" finished-at="2019-03-11T10:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePage -->
+        <test-method status="PASS" signature="terminateDriver()[pri:0, instance:com.testAutomation.TestAutomation.ValidateHomepage@3a03464]" name="terminateDriver" is-config="true" duration-ms="2104" started-at="2019-03-11T10:46:31Z" finished-at="2019-03-11T10:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateDriver -->
+      </class> <!-- com.testAutomation.TestAutomation.ValidateHomepage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

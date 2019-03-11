@@ -5,7 +5,9 @@
     <classes>
       <class name="com.testAutomation.TestAutomation.Homepage">
         <methods>
-          <include name="homePageNavigation"/>
+          <include name="homePageNavigation" invocation-numbers="1"/>
+          <include name="initializeTest"/>
+          <include name="terminateDriver"/>
         </methods>
       </class> <!-- com.testAutomation.TestAutomation.Homepage -->
     </classes>

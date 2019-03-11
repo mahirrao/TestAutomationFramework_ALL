@@ -2,6 +2,11 @@ package com.testAutomation.TestAutomation;
 
 import java.io.IOException;
 
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -10,15 +15,17 @@ import pageObjects.LoginPage;
 
 public class Homepage extends base
 {
+	@BeforeMethod
+	private void initializeTest() throws IOException
+	{
+		driver = initializeDriver();
+		driver.get(prop.getProperty("URL"));
+	}
+	
 	@Test(dataProvider="getData")
 	public void homePageNavigation(String userName, String password) throws IOException
 	{
-		driver = initializeDriver();
-		prop=getProperties();
-		
-		String url = prop.getProperty("URL");
-		
-		driver.get(url);
+
 		
 		LandingPage landPage = new LandingPage(driver);
 		landPage.getLogIn(driver).click();
@@ -28,6 +35,11 @@ public class Homepage extends base
 		logPage.getPassword(driver).sendKeys(password);
 		logPage.getLogInButton(driver).click();
 		
+	}
+
+	@AfterMethod
+	private void terminateDriver()
+	{
 		driver.close();
 	}
 	
