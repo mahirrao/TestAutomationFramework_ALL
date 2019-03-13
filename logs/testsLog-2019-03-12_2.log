@@ -1,0 +1,5 @@
+04:58:39.325 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the Section Title
+04:58:39.446 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.ValidateHomepage
+04:58:39.465 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.Homepage
+04:58:39.465 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+04:58:42.360 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized

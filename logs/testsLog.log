@@ -1,0 +1,3 @@
+04:59:10.843 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+04:59:13.177 [main] INFO  com.testAutomation.TestAutomation.base: Tried to Log In
+04:59:13.279 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.Homepage

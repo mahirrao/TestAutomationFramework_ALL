@@ -2,6 +2,8 @@ package com.testAutomation.TestAutomation;
 
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
@@ -15,32 +17,42 @@ import pageObjects.LoginPage;
 
 public class Homepage extends base
 {
-	@BeforeMethod
+	public static Logger log = LogManager.getLogger(base.class.getName());
+	
+	@BeforeTest
 	private void initializeTest() throws IOException
 	{
+		log.info("Executing the test: " +this.getClass().getName());
 		driver = initializeDriver();
-		driver.get(prop.getProperty("URL"));
+		log.info("Driver is initialized");
 	}
 	
 	@Test(dataProvider="getData")
 	public void homePageNavigation(String userName, String password) throws IOException
 	{
-
+		log.info("In the method: " +new Throwable().getStackTrace()[0].getMethodName());
+		driver.get(prop.getProperty("URL"));
+		log.info("Navigated to Landing Page");
 		
 		LandingPage landPage = new LandingPage(driver);
 		landPage.getLogIn(driver).click();
+		log.info("Navigated to Login Page");
 		
 		LoginPage logPage = new LoginPage(driver);
 		logPage.getUsername(driver).sendKeys(userName);
 		logPage.getPassword(driver).sendKeys(password);
 		logPage.getLogInButton(driver).click();
 		
+		log.info("Tried to Log In");
+		
 	}
 
-	@AfterMethod
+	@AfterTest
 	private void terminateDriver()
 	{
 		driver.close();
+		driver = null;
+		log.info("Execution complete for the test: " +this.getClass().getName());
 	}
 	
 	@DataProvider
