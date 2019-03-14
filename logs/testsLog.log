@@ -1,3 +1,54 @@
-04:59:10.843 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
-04:59:13.177 [main] INFO  com.testAutomation.TestAutomation.base: Tried to Log In
-04:59:13.279 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.Homepage
+01:03:26.567 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.ValidateHomepage
+01:03:26.573 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+01:03:30.501 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+01:03:30.521 [main] INFO  com.testAutomation.TestAutomation.base: In the method: validateHomePage
+01:03:33.499 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the courses section text
+01:03:33.528 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the Section Title
+01:03:33.648 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.ValidateHomepage
+01:03:33.671 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.Homepage
+01:03:33.671 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+01:03:36.602 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+01:03:36.608 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+01:03:38.985 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+01:03:45.098 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+01:03:50.612 [main] INFO  com.testAutomation.TestAutomation.base: Tried to Log In
+01:03:50.615 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+01:03:51.803 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+01:03:55.695 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+01:03:58.511 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.Homepage
+01:08:55.342 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.ValidateHomepage
+01:08:55.346 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+01:08:59.413 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+01:08:59.434 [main] INFO  com.testAutomation.TestAutomation.base: In the method: validateHomePage
+01:09:01.798 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the courses section text
+01:09:01.826 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the Section Title
+01:09:01.896 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.ValidateHomepage
+01:09:01.914 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.Homepage
+01:09:01.915 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+01:09:04.799 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+01:09:04.804 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+01:09:06.742 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+01:09:13.230 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+01:09:18.596 [main] INFO  com.testAutomation.TestAutomation.base: Tried to Log In
+01:09:18.597 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+01:09:19.918 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+01:09:25.500 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+01:09:28.027 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.Homepage
+03:50:11.704 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.ValidateHomepage
+03:50:11.710 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+03:50:16.577 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+03:50:16.605 [main] INFO  com.testAutomation.TestAutomation.base: In the method: validateHomePage
+03:50:20.454 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the courses section text
+03:50:20.501 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the Section Title
+03:50:20.642 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.ValidateHomepage
+03:50:20.667 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.Homepage
+03:50:20.667 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
+03:50:23.765 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
+03:50:23.774 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+03:50:26.773 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+03:50:40.833 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+03:50:46.742 [main] INFO  com.testAutomation.TestAutomation.base: Tried to Log In
+03:50:46.743 [main] INFO  com.testAutomation.TestAutomation.base: In the method: homePageNavigation
+03:50:48.365 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Landing Page
+03:50:52.728 [main] INFO  com.testAutomation.TestAutomation.base: Navigated to Login Page
+03:50:56.283 [main] INFO  com.testAutomation.TestAutomation.base: Execution complete for the test: com.testAutomation.TestAutomation.Homepage

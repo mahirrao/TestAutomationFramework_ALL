@@ -41,7 +41,8 @@ public class Homepage extends base
 		LoginPage logPage = new LoginPage(driver);
 		logPage.getUsername(driver).sendKeys(userName);
 		logPage.getPassword(driver).sendKeys(password);
-		logPage.getLogInButton(driver).click();
+		logPage.getLogInButton(driver).click();		
+		Assert.assertFalse(logPage.isInvalidLogin(driver));
 		
 		log.info("Tried to Log In");
 		

@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test thread-count="5" verbose="0" name="ValidateHomepageTest(failed)">
-    <classes>
-      <class name="com.testAutomation.TestAutomation.ValidateHomepage">
-        <methods>
-          <include name="terminateDriver"/>
-          <include name="validateHomePage"/>
-          <include name="initializeTest"/>
-        </methods>
-      </class> <!-- com.testAutomation.TestAutomation.ValidateHomepage -->
-    </classes>
-  </test> <!-- ValidateHomepageTest(failed) -->
+  <listeners>
+    <listener class-name="listeners.listener"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
   <test thread-count="5" verbose="0" name="HomepageTest(failed)">
     <classes>
       <class name="com.testAutomation.TestAutomation.Homepage">
         <methods>
-          <include name="homePageNavigation" invocation-numbers="0 1"/>
+          <include name="homePageNavigation" invocation-numbers="1"/>
           <include name="initializeTest"/>
           <include name="terminateDriver"/>
         </methods>

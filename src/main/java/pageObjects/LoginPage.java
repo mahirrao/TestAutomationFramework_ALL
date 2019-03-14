@@ -16,6 +16,7 @@ public class LoginPage
 	By userName = By.id("user_email");
 	By password = By.cssSelector("input[id*='user_password']");
 	By loginButton = By.xpath("//input[@value='Log In']");
+//	By invalidLogin = By.cssSelector("div.alert.alert-danger");
 	
 	public WebElement getUsername(WebDriver driver)
 	{
@@ -32,5 +33,11 @@ public class LoginPage
 		return driver.findElement(loginButton);		
 	}
 
-
+	public boolean isInvalidLogin(WebDriver driver)
+	{	
+		if(driver.getCurrentUrl().equals("https://qaclickacademy.usefedora.com/"))
+			return false;
+		else
+			return true;
+	}
 }

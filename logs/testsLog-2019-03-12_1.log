@@ -1,5 +1,0 @@
-04:58:32.476 [main] INFO  com.testAutomation.TestAutomation.base: Executing the test: com.testAutomation.TestAutomation.ValidateHomepage
-04:58:32.481 [main] INFO  com.testAutomation.TestAutomation.base: browser Name is: Chrome
-04:58:36.697 [main] INFO  com.testAutomation.TestAutomation.base: Driver is initialized
-04:58:36.716 [main] INFO  com.testAutomation.TestAutomation.base: In the method: validateHomePage
-04:58:39.299 [main] INFO  com.testAutomation.TestAutomation.base: Successfully validated the courses section text
